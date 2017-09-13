@@ -1,0 +1,14 @@
+{
+    "images": ["gfx/bonus.PNG"],
+    "frames": {
+        "width": 67,
+        "height": 67,
+        "regX": 0,
+        "regY": 0
+    },
+    "animations": {
+        "speed": [0],
+        "bombs": [1],
+        "power": [2]
+    }
+}

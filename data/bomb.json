@@ -1,0 +1,13 @@
+{
+    "images": ["gfx/bomb.png"],
+    "framerate": 12,
+    "frames": {
+        "width": 59,
+        "height": 59,
+        "regX": 0,
+        "regY": 0
+    },
+    "animations": {
+        "bombIt": [4, 0]
+    }
+}

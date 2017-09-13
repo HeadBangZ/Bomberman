@@ -1,0 +1,34 @@
+[
+    {
+        "images": ["gfx/playerOne.png"],
+        "framerate": 8,
+        "frames": {
+            "width": 60,
+            "height": 60,
+            "regX": 0,
+            "regY": 0
+        },
+        "animations": {
+            "down": [0, 3],
+            "left": [4, 7],
+            "up": [8, 11],
+            "right": [12, 15],
+            "dead": [16]
+        }
+}, {
+        "images": ["gfx/playerTwo.png"],
+        "framerate": 8,
+        "frames": {
+            "width": 60,
+            "height": 60,
+            "regX": 0,
+            "regY": 0
+        },
+        "animations": {
+            "down": [0, 3],
+            "left": [4, 7],
+            "up": [8, 11],
+            "right": [12, 15],
+            "dead": [16]
+        }
+}]

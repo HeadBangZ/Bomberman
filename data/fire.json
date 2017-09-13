@@ -1,0 +1,13 @@
+{
+    "images": ["gfx/fire.png"],
+    "framerate": 6,
+    "frames": {
+        "width": 60,
+        "height": 60,
+        "regX": 0,
+        "regY": 0
+    },
+    "animations": {
+        "fire": [0, 5]
+    }
+}

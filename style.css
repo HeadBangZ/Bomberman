@@ -1,0 +1,68 @@
+#mainMenu {
+    background-color: black;
+    border: 25px double #FC3;
+    border-top-color: green;
+    border-bottom-color: red;
+    padding: 25px;
+    margin-left: 27px;
+    position: fixed;
+    margin-top: 122.5px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+#startButton {
+    margin-left: 330px;
+    color: #fff;
+    background: blue;
+    font-weight: bold;
+    border: 1px solid #000;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#startButton:hover {
+    color: blue;
+    background-color: #fff;
+}
+
+#restartButton {
+    display: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    border: 25px double #FC3;
+    border-top-color: green;
+    border-bottom-color: red;
+    padding: 25px;
+    margin-top: 350px;
+    margin-left: 340px;
+    position: fixed;
+    border-radius: 20px;
+}
+
+#restartButton:hover {
+    color: blue;
+    cursor: pointer;
+}

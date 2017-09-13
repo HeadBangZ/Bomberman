@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bomb Away</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script src="https://code.createjs.com/tweenjs-0.6.2.min.js"></script>
+    <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+    <style>
+        canvas {
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainMenu" onclick="showhide()">
+        <h1>Bomb Away</h1>
+        <h2>Controls</h2>
+        <p>Player 1 - Move using &larr;, &rarr;, &darr;, &uarr; place bombs using: &quot;Enter&quot;</p>
+        <p>Player 2 - Move using A, D, S, W place bombs using: &quot;Space&quot;</p>
+        <p>Sound Mute / Unmute - M</p>
+        <button id="startButton" type="submit">Start</button>
+    </div>
+    <button id="restartButton" type="submit">Restart</button>
+    <canvas id="myFirst" width="900" height="780"></canvas>
+    <br>
+    <a href="bomberman.zip">BombermanZipFil</a>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
